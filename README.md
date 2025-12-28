@@ -4,3 +4,5 @@
 ## 关联开源项目（赛题）：
 
 **EasyGraph**：https://github.com/easy-graph/Easy-Graph
+
+**主题**：开发者协作网络的图分析与优化
