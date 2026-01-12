@@ -10,7 +10,7 @@
 
 
 
-## 1.安装步骤（Installation）
+## 1.安装步骤
 
 #### 1.1 克隆仓库
 
@@ -43,7 +43,7 @@ pip install torch_scatter==2.1.2 torch_sparse==0.6.18 -f https://data.pyg.org/wh
 pip install torch_geometric==2.7.0
 ```
 
-## 2.使用（Bench.py）
+## 2.使用
 
 本项目提供一个 bench.py 对 EasyGraph++ 的优化后的所有函数进行测试，并将结果输出为 txt。
 
