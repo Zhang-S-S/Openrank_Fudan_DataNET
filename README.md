@@ -9,7 +9,7 @@
 **主题**：开发者协作网络的图分析与优化
 
 
-## 1. 安装步骤（Installation）
+## 安装步骤（Installation）
 
 #### 1.1 克隆仓库
 
@@ -24,7 +24,7 @@ cd OpenRank_Fudan_DataNET/复赛/代码/EasyGraph++/cpp_easygraph
 git clone --depth 1 https://github.com/pybind/pybind11.git pybind11
 ```
 
-#### 1.3 安装本地 Python 包（会触发编译/构建）
+#### 1.3 安装本地 EasyGraph++ 包
 
 回到 `EasyGraph++` 目录后安装：
 
@@ -33,19 +33,10 @@ cd ..
 pip install .
 ```
 
----
-
-### 2. EasyGraph 依赖安装（Dependencies）
-
-#### 2.1 安装HIF依赖
+#### 1.4 EasyGraph 依赖安装
 
 ```bash
 pip install fastjsonschema
-```
-
-#### 2.2 安装 PyTorch及相关依赖（CPU 版 2.4.0）
-
-```bash
 pip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cpu
 pip install torch_scatter==2.1.2 torch_sparse==0.6.18 -f https://data.pyg.org/whl/torch-2.4.0+cpu.html
 pip install torch_geometric==2.7.0
