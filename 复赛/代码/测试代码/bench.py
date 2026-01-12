@@ -6,7 +6,7 @@ import numpy as np
 
 def setup():
     """ca-HepPh (无向)"""
-    file_path = 'OpenRank_Fudan_DataNET/复赛/代码/测试代码/ca-HepPh.txt'
+    file_path = '复赛/代码/测试代码/ca-HepPh.txt'
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"{file_path} not found")
 
