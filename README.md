@@ -10,7 +10,7 @@
 
 
 
-## 安装步骤（Installation）
+## 1.安装步骤（Installation）
 
 #### 1.1 克隆仓库
 
@@ -43,21 +43,21 @@ pip install torch_scatter==2.1.2 torch_sparse==0.6.18 -f https://data.pyg.org/wh
 pip install torch_geometric==2.7.0
 ```
 
-## 使用（Bench.py）
+## 2.使用（Bench.py）
 
-> 本项目提供一个 bench.py 对 EasyGraph++ 的优化后的所有函数进行测试，并将结果输出为 txt。
+本项目提供一个 bench.py 对 EasyGraph++ 的优化后的所有函数进行测试，并将结果输出为 txt。
 
-1) 进入仓库目录（确保相对路径能找到数据文件）  
+#### 2.1 进入仓库目录（确保相对路径能找到数据文件）  
 ```bash
 cd OpenRank_Fudan_DataNET
 ```
 
-2) 运行 bench  
+#### 2.2 运行 bench  
 ```bash
 python bench.py
 ```
 
-3) 输出  
+#### 2.3 输出  
 运行完成后会在当前目录生成 `result/`，包含各指标的输出文件（如 `pagerank_result.txt` 等）。
 
 > 若提示找不到 `ca-HepPh.txt`：请检查运行目录是否正确，或修改 `bench.py` 里的 `file_path` 为你的实际路径
