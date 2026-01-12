@@ -34,7 +34,7 @@ cd ..
 pip install .
 ```
 
-#### 1.4 EasyGraph 依赖安装
+#### 1.4 EasyGraph++ 依赖安装
 
 ```bash
 pip install fastjsonschema
