@@ -6,7 +6,7 @@
 
 **EasyGraph**：https://github.com/easy-graph/Easy-Graph
 
-**主题**：开发者协作网络的图分析与优化111
+**主题**：开发者协作网络的图分析与优化
 
 
 
@@ -64,7 +64,11 @@ After the execution is completed, a result/ directory will be generated in the c
 
 > If prompted that ca-HepPh.txt is not found: check if the running directory is correct, or update file_path in bench.py to your actual path.
 
-## 3. EasyGraph++ implementation location
+## 3.Video
+We've recorded a step-by-step video tutorial on setting up EasyGraph++ on a new server. If you're interested, you can click the link to watch it.
+【Openrank_Fudan_DataNET_复赛视频】 https://www.bilibili.com/video/BV1znrpBaESC/?share_source=copy_web&vd_source=ee9f55a2cfdec247565d62945e37ce8e
+
+## 4. EasyGraph++ implementation location
 
 The file paths for the corresponding EasyGraph++ algorithm implementations are as follows:
 
